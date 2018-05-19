@@ -1,0 +1,56 @@
+{
+    "title": "Form Sample",
+    "type": "object",
+    "properties": {
+      "username": {
+        "label": "Username",
+        "optional": false,
+        "showField": true,
+        "uniforms": {
+          "type": "text",
+          "placeholder": ""
+        },
+        "type": "string"
+      },
+      "firstName": {
+        "label": "First Name",
+        "optional": false,
+        "showField": true,
+        "uniforms": {
+          "type": "text",
+          "placeholder": ""
+        },
+        "type": "string"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "optional": false,
+        "showField": true,
+        "uniforms": {
+          "type": "text",
+          "placeholder": ""
+        },
+        "type": "string"
+      },
+      "password": {
+        "label": "Password",
+        "optional": false,
+        "showField": true,
+        "uniforms": {
+          "type": "password",
+          "placeholder": ""
+        },
+        "type": "string"
+      },
+      "email": {
+        "label": "Email",
+        "optional": false,
+        "showField": true,
+        "uniforms": {
+          "type": "email",
+          "placeholder": ""
+        },
+        "type": "string"
+      }
+    }
+  }
